@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "myff";
+    src: url("font.woff") format("woff");      
+}
+
+:root{
+--pink:rgb(239, 144, 160);
+--blue: skyblue;
+--lpink:rgb(255, 204, 236);
+--lblue: rgb(199, 239, 255);  
+}
+
+
+*{
+    margin: 0;  
+    text-align: center;   
+}
+
+body{
+    
+    background-color: #ffecdc;
+    color:cadetblue;   
+}
+
+div{
+    margin: 60px auto;
+    height: auto;
+    width: 300px;
+    border-radius: 12px;
+    padding:20px 0 20px 0;   
+}
+
+.icon{
+    padding: 0;
+    height: 32px;
+    width: 32px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color:
+}
+
+.heading{
+    margin: 12px;
+    font-family: myff;
+}
+
+ button{
+    background-color:cornsilk;
+    font-family: monospace;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border-style: none;
+    margin-top: 10px;
+ }
+
+ button:hover{
+    background-color:inherit;
+    font-family: monospace;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    
+ }
+ 
+ .top{
+    background-color:var(--lblue);
+    border: solid  2px ;
+    border-color: var(--blue);
+ }
+ .down{
+    background-color:var(--lpink);
+    border: solid 2px;
+    border-color: var(--pink);
+ }
+
+ .topbtn{
+    color:var(--blue);
+ }
+
+.downbtn{
+   color:var(--pink);
+}
+
+#ab{
+    background-color: var(--blue);
+}
+
+#bb{
+    background-color: var(--pink);
+}
